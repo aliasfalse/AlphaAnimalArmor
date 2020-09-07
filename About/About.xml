@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Alpha Animal Armor</name>
+	<author>nataralis</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>nataralis.AlphaAnimalArmor</packageId>
+	<description>
+Allows the animals from Alpha Animals wear the armor from Animal Armor: Vanilla
+
+Currently supported animals:
+Arctic Lion (Plate)
+Meadow Ave (Plate)
+
+Changelog:
+v0.1: Prerelease
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Dylan.AnimalGear</packageId>
+			<displayName>Animal Gear</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1541438907</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OhGodSpidersNo.AnimalArmor.Vanilla</packageId>
+			<displayName>Animal Armor: Vanilla</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1743423205</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>sarg.alphaanimals</packageId>
+			<displayName>Alpha Animals</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1541721856</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+			<li>Dylan.AnimalGear</li>
+			<li>OhGodSpidersNo.AnimalArmor.Vanilla</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="Apparel_AnimalPlateArmor" or defName="Apparel_AnimalPlateHelmet"]/apparel/tags</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Apparel_AnimalPlateArmor"]/apparel/tags</xpath>
+                <value>
+                    <li>AA_AnimusVox</li>
+                    <li>AA_ArcticLion</li>
+                    <li>AA_MeadowAve</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Apparel_AnimalPlateHelmet"]/apparel/tags</xpath>
+                <value>
+                    <li>AA_ArcticLion</li>
+                    <li>AA_MeadowAve</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>
